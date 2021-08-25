@@ -1,10 +1,10 @@
-package java8.lambda;
+package java8.lambda.functional_interfaces;
 
 import java8.lambda.models.User;
 
 import java.util.function.BiConsumer;
 
-public class UserConsumer {
+public class ConsumerUserDemo {
 
     public static void main(String[] args) {
         User user = new User();
