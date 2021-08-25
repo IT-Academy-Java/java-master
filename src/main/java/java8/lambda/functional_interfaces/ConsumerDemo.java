@@ -1,4 +1,4 @@
-package java8.lambda;
+package java8.lambda.functional_interfaces;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
