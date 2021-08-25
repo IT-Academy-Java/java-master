@@ -18,6 +18,18 @@ public class Main {
             case COUPE -> System.out.println("The coupe");
             case SPORT -> System.out.println("The sport model");
         }
+        
+        CarType[] carTypes = CarType.values();
+        for (CarType carType: carTypes
+             ) {
+            System.out.println(
+                    carType + "=> " +
+                            carType.name() + ", " +
+                            carType.getName() + ", " +
+                            carType.getDescription() + ", " +
+                            carType.getNumDoors()
+            );
+        }
     }
 }
 
