@@ -35,8 +35,14 @@ Java SE 8 define 4 grandes grupos de interfaces funcionales agrupadas en el paqu
 
 
 1. **Consumer<T>**: Define el método +accept(T):void y es usada para consumir métodos del parámetro T, causando posibles efectos secundarios.
+```
+Consumer<Integer> print = (a) ­> System.out.println(a);
+```
 
-
+Ahora la misma expresión lambda usando métodos de referencia:
+```
+Consumer<Integer> print = System.out::println;
+```
 2. **Supplier<T>**: Define el método +get():T y es usada para la creación de objetos.
 
 
