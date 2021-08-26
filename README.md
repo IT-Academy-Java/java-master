@@ -2,4 +2,4 @@
 
 - [Enum](https://github.com/elenapiaggio/java-master/tree/main/src/main/java/poo/enum_demo)
 - [Wrapper classes](https://github.com/elenapiaggio/java-master/tree/main/src/main/java/wrapper)
-- [Functional interfaces](https://github.com/elenapiaggio/java-master/tree/main/src/main/java/java8/lambda)
+- [Lambda](https://github.com/elenapiaggio/java-master/tree/main/src/main/java/java8/lambda)
